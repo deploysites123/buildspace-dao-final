@@ -43,6 +43,7 @@ const App = () => {
     }
 
     // A simple call to vote.getAll() to grab the proposals.
+    
     const getAllProposals = async () => {
       try {
         const proposals = await vote.getAll();
